@@ -7,7 +7,7 @@
 //
 
 #import "NoDataView.h"
-#import <Masonry/Masonry.h>
+//#import <Masonry/Masonry.h>
 
 @interface NoDataView()
 @property(nonatomic, strong)UIImageView *imageV;
@@ -25,11 +25,11 @@
 }
 -(void)layoutSubviews{
     [super layoutSubviews];
-    [_imageV mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.mas_equalTo(self.mas_centerX);
-        make.centerY.mas_equalTo(self.mas_centerY).offset(-64);
-        make.width.mas_equalTo(180);
-        make.height.mas_equalTo(202);
-    }];
+//    [_imageV mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.centerX.mas_equalTo(self.mas_centerX);
+//        make.centerY.mas_equalTo(self.mas_centerY).offset(-64);
+//        make.width.mas_equalTo(180);
+//        make.height.mas_equalTo(202);
+//    }];
 }
 @end

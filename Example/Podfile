@@ -5,10 +5,6 @@ platform :ios, '9.0'
 target 'GFGeneralLib_Example' do
   pod 'GFGeneralLib', :path => '../'
 
-  target 'GFGeneralLib_Tests' do
-    inherit! :search_paths
-
-  end
 end
 
 

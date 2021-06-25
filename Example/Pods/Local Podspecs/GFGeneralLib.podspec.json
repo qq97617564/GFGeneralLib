@@ -15,6 +15,7 @@
     "git": "https://github.com/qq97617564/GFGeneralLib.git",
     "tag": "0.1.0"
   },
+  "exclude_files": "GFGeneralLib/Classes/*.plist",
   "platforms": {
     "ios": "9.0"
   },
@@ -22,20 +23,14 @@
   "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": [
     "UIKit",
-    "MapKit"
+    "Foundation"
   ],
   "dependencies": {
     "MJExtension": [
 
     ],
-    "Masonry": [
-
-    ],
     "SDWebImage": [
 
-    ],
-    "GTMBase64": [
-      "~> 1.0.1"
     ]
   }
 }
