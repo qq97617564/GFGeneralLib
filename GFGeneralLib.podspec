@@ -20,13 +20,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WGF' => '597617564@qq.com' }
   s.source           = { :git => 'https://github.com/qq97617564/GFGeneralLib.git', :tag => s.version.to_s }
-  s.platform    = :ios, "9.0"
+
+  #s.platform    = :ios, "9.0"
+
   s.ios.deployment_target = '9.0'
   s.source_files = 'GFGeneralLib/Classes/**/*'
-   s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation'
-   s.dependency 'MJExtension'
-   s.dependency 'SDWebImage'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'MJExtension'
+  s.dependency 'SDWebImage'
 
    #s.dependency 'Masonry'
    #s.dependency 'GTMBase64', '~> 1.0.1'
