@@ -1,0 +1,37 @@
+PODS:
+  - GFGeneralLib (0.1.0):
+    - GTMBase64 (~> 1.0.1)
+    - Masonry
+    - MJExtension
+    - SDWebImage
+  - GTMBase64 (1.0.1)
+  - Masonry (1.1.0)
+  - MJExtension (3.3.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+
+DEPENDENCIES:
+  - GFGeneralLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GTMBase64
+    - Masonry
+    - MJExtension
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  GFGeneralLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GFGeneralLib: c7eb4c300b1cf1c013d67d0d43165d5de72047ba
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+
+PODFILE CHECKSUM: 532b994004e4996d3867d1883b6193802d4cf658
+
+COCOAPODS: 1.10.1
