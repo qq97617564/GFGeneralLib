@@ -1,5 +1,5 @@
 PODS:
-  - GFGeneralLib (0.1.0):
+  - GFGeneralLib (0.1.1):
     - MJExtension
     - SDWebImage
   - MJExtension (3.3.0)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GFGeneralLib: 7f3b84282bceb4723950ab5de70e26a2e028ac34
+  GFGeneralLib: cb5f25d72167247f82ca77b88e239058a3291abd
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
 
