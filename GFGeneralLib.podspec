@@ -24,7 +24,6 @@ TODO: Add long description of the pod here.
   #s.platform    = :ios, "9.0"
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'GFGeneralLib/Classes/**/*'
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'MJExtension'
