@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GFGeneralLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of GFGeneralLib.'
 
 
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   #s.platform    = :ios, "9.0"
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'GFGeneralLib','GFGeneralLib/*.{h.m}','GFGeneralLib/**/*.{h.m}','GFGeneralLib/Classes/**/*.{h.m}'
+  s.source_files = 'GFGeneralLib/GFGeneraManager.h','GFGeneralLib/GFGeneralLib/**/*.{h.m}'
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'MJExtension'
