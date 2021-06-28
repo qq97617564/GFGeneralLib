@@ -1,28 +1,83 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - GFGeneralLib (0.1.1):
+    - AFNetworking
+    - GTMBase64
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
     - MJExtension
+    - MJRefresh
     - SDWebImage
+    - TZImagePickerController
+    - YBImageBrowser
+  - GTMBase64 (1.0.1)
+  - IQKeyboardManager (6.5.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
   - MJExtension (3.3.0)
+  - MJRefresh (3.6.1)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
+  - TZImagePickerController (3.6.0)
+  - YBImageBrowser (3.0.9):
+    - YBImageBrowser/Core (= 3.0.9)
+  - YBImageBrowser/Core (3.0.9):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
   - GFGeneralLib (from `../`)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
+    - GTMBase64
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
     - MJExtension
+    - MJRefresh
     - SDWebImage
+    - TZImagePickerController
+    - YBImageBrowser
+    - YYImage
 
 EXTERNAL SOURCES:
   GFGeneralLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GFGeneralLib: a9516baa8b512c04918e6b22bf7a1248407282b2
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  GFGeneralLib: ed67d3610651bf60409980ed57ce9e8783b34aac
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  TZImagePickerController: a37d7eec87c54436e896a67947033ad2178d498b
+  YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
 PODFILE CHECKSUM: e34f694cf2aa2405bd1ecd3968b0763e081cfb55
 

@@ -32,6 +32,30 @@
     ],
     "SDWebImage": [
 
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "GTMBase64": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "YBImageBrowser": [
+
     ]
   }
 }

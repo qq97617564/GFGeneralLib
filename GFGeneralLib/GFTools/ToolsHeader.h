@@ -13,6 +13,8 @@
 #import "GFCountDownTool.h"
 #import "JYUtils.h"
 #import "UIAlertTool.h"
+#import "HTTPTool.h"
+#import "MBProgressHUD+GF.h"
 
 
 #endif /* ToolsHeader_h */

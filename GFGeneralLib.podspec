@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GFGeneralLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of GFGeneralLib.'
 
 
@@ -29,8 +29,13 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'MJExtension'
   s.dependency 'SDWebImage'
-
-   #s.dependency 'Masonry'
-   #s.dependency 'GTMBase64', '~> 1.0.1'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'AFNetworking'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'MJRefresh'
+  s.dependency 'Masonry'
+  s.dependency 'GTMBase64'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'YBImageBrowser'
    
 end
