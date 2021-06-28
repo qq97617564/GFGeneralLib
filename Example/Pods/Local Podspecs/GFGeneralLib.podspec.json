@@ -1,6 +1,6 @@
 {
   "name": "GFGeneralLib",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "summary": "A short description of GFGeneralLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/qq97617564/GFGeneralLib",
@@ -13,17 +13,18 @@
   },
   "source": {
     "git": "https://github.com/qq97617564/GFGeneralLib.git",
-    "tag": "0.1.1"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "public_header_files": "Pod/Classes/**/*.h",
   "source_files": [
-    "GFGeneralLib/GFGeneraManager.h",
-    "GFGeneralLib/*/*.@{h.m}",
-    "Pod/Classes/**/*.h"
+    "GFGeneralLib",
+    "GFGeneralLib/*.{h.m}",
+    "GFGeneralLib/**/*.{h.m}",
+    "GFGeneralLib/Classes/**/*.{h.m}"
   ],
+  "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": [
     "UIKit",
     "Foundation"
