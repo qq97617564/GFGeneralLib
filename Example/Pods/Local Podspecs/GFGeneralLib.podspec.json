@@ -20,9 +20,8 @@
   },
   "source_files": [
     "GFGeneralLib/GFGeneraManager.h",
-    "GFGeneralLib/GFGeneralLib/**/*.{h.m}"
+    "GFGeneralLib/**/*.{h,m}"
   ],
-  "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": [
     "UIKit",
     "Foundation"

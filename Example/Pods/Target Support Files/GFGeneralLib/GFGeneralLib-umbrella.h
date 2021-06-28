@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GFGeneraManager.h"
 #import "BaseClassHeader.h"
 #import "KAccount.h"
 #import "KbackModel.h"
