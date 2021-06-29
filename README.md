@@ -11,26 +11,26 @@ GFGeneralLib是常用代码和第三方库的封装
 
 
 ## 有关的第三方库：
-  pod 'MJExtension'
-  pod 'SDWebImage'
-  pod 'IQKeyboardManager'
-  pod 'AFNetworking'
-  pod 'MBProgressHUD'
-  pod 'MJRefresh'
-  pod 'Masonry'
-  pod 'GTMBase64'
-  pod 'TZImagePickerController'
+  pod 'MJExtension'  
+  pod 'SDWebImage'  
+  pod 'IQKeyboardManager'  
+  pod 'AFNetworking'  
+  pod 'MBProgressHUD'  
+  pod 'MJRefresh'  
+  pod 'Masonry'  
+  pod 'GTMBase64'  
+  pod 'TZImagePickerController'  
   pod 'YBImageBrowser'
   
   ## 封装类：
-  HTTPTool :基于AFNetworking的网络请求封装
-  GFPickView : 底部滚筒选择支持数组和.plist
-  GFDatePicker :底部时间选择器封装
+  HTTPTool :基于AFNetworking的网络请求封装  
+  GFPickView : 底部滚筒选择支持数组和.plist  
+  GFDatePicker :底部时间选择器封装  
 
   ## 扩展类：
-   MBProgressHUD+GF:基于 MBProgressHUD的弹窗提示封装
-   Foundation类扩展
-   UIKit扩展
+   MBProgressHUD+GF:基于 MBProgressHUD的弹窗提示封装  
+   Foundation类扩展  
+   UIKit扩展  
 
 ## Installation
 
