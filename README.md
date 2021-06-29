@@ -45,6 +45,10 @@ pod 'GFGeneralLib'
 ```ruby
 #import <GFGeneraManager.h>
 ```
+## 联系我
+
+597617564@qq.com
+
 
 ## License
 
