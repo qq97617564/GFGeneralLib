@@ -91,7 +91,7 @@
  */
 + (MBProgressHUD *)showMessage:(NSString *)message
 {
-    [self showMessage:message toView:WINDOW];
+    return [self showMessage:message toView:WINDOW];
 }
 
 /**

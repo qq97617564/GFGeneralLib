@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GFGeneralLib'
   s.version          = '0.1.2'
-  s.summary          = 'A short description of GFGeneralLib.'
+  s.summary          = 'Mr. WGF project general code, go to Git for details'
 
 
   s.description      = <<-DESC

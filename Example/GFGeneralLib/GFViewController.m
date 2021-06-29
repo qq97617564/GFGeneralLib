@@ -7,7 +7,7 @@
 //
 
 #import "GFViewController.h"
-
+#import <GFGeneraManager.h>
 @interface GFViewController ()
 
 @end
@@ -22,6 +22,7 @@
 
 - (void)didReceiveMemoryWarning
 {
+    
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
