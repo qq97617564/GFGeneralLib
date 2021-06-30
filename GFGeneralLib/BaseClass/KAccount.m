@@ -78,16 +78,16 @@ static KAccount *Account;
     return NO;
 }
 - (void)outLogin{
-//    KAccount *model = [[KAccount alloc] init];
-//    [[self class] mj_enumerateProperties:^(MJProperty *property, BOOL *stop) {
-//        if (![property.type isNumberType] && ![property.type isBoolType]) {
-//            [model setValue:@"" forKey:property.name];
-//        }
-//    }];
-//    [self mj_setKeyValues:model.mj_keyValues];
+    KAccount *model = [[KAccount alloc] init];
+    [[self class] mj_enumerateProperties:^(MJProperty *property, BOOL *stop) {
+        if (![property.type isNumberType] && ![property.type isBoolType]) {
+            [model setValue:@"" forKey:property.name];
+        }
+    }];
+    [self mj_setKeyValues:model.mj_keyValues];
 
     [self saveUserAccount];
-//    [[NSNotificationCenter defaultCenter]postNotificationName:kLogoutNotification object:nil];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"kLogoutNotification" object:nil];
 }
 
 + (NSDictionary *)mj_replacedKeyFromPropertyName {

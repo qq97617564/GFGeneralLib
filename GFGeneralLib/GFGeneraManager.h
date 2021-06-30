@@ -15,6 +15,7 @@
 #import "GFDatePicker.h"
 #import "GFPickView.h"
 #import "ToolsHeader.h"
+#import "UICategoryHeader.h"
 
 #import <MJExtension/MJExtension.h>
 #import <AFNetworking/AFNetworking.h>
