@@ -1,7 +1,7 @@
 {
   "name": "GFGeneralLib",
-  "version": "0.1.1",
-  "summary": "A short description of GFGeneralLib.",
+  "version": "0.1.4",
+  "summary": "Mr. WGF project general code, go to Git for details",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/qq97617564/GFGeneralLib",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/qq97617564/GFGeneralLib.git",
-    "tag": "0.1.1"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
