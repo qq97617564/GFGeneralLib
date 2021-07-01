@@ -11,6 +11,7 @@
 #endif
 
 #import "GFGeneraManager.h"
+#import "GFGeneralLib.h"
 #import "BaseClassHeader.h"
 #import "KAccount.h"
 #import "KbackModel.h"
@@ -34,7 +35,6 @@
 #import "NSString+Category.h"
 #import "UIDevice+category.h"
 #import "GFDatePicker.h"
-#import "GFGeneralLib.h"
 #import "addressModel.h"
 #import "GFCityPickView.h"
 #import "GFPickView.h"

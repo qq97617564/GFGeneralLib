@@ -21,7 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		80E9085A268D6A5E00D1CAC8 /* GFV.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E90859268D6A5E00D1CAC8 /* GFV.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C49AC5E7D6B418CB3212CAB8 /* Pods_GFGeneralLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB80B1B160C8084CFD285C6F /* Pods_GFGeneralLib_Example.framework */; };
 /* End PBXBuildFile section */
@@ -59,8 +58,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80E90858268D6A5E00D1CAC8 /* GFV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFV.h; sourceTree = "<group>"; };
-		80E90859268D6A5E00D1CAC8 /* GFV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFV.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8E228C7058C60466185BC9C /* GFGeneralLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GFGeneralLib.podspec; path = ../GFGeneralLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB80B1B160C8084CFD285C6F /* Pods_GFGeneralLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFGeneralLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,8 +134,6 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				80E90858268D6A5E00D1CAC8 /* GFV.h */,
-				80E90859268D6A5E00D1CAC8 /* GFV.m */,
 			);
 			name = "Example for GFGeneralLib";
 			path = GFGeneralLib;
@@ -365,7 +360,6 @@
 				6003F59E195388D20070C39A /* GFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				80E9085A268D6A5E00D1CAC8 /* GFV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

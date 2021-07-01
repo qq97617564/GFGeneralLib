@@ -20,6 +20,7 @@
   },
   "source_files": [
     "GFGeneralLib/GFGeneraManager.h",
+    "GFGeneralLib/*",
     "GFGeneralLib/**/*.{h,m}"
   ],
   "frameworks": [
