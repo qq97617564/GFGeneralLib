@@ -17,16 +17,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-//    [self setNavigationBarHidden:YES animated:NO];
-//    UIImage *image = [[UIImage alloc] init];
-//设置导航栏背景图片为一个空的image，这样就透明了
-//    [self.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
-//    self.view.backgroundColor = [UIColor clearColor];
-//去掉透明后导航栏下边的黑边
-//    [self.navigationBar setShadowImage:image];
-//
-//    self.navigationBar.barStyle = UIBarStyleBlack;
-    self.navigationBar.translucent = NO;
+    [self.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
 }
 
 
@@ -34,14 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    [self.navigationBar setBarTintColor:[UIColor whiteColor]];
-    [self.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,[UIFont systemFontOfSize:18.0f],NSFontAttributeName, nil]];
-    
-    //    self.navigationBar.translucent = NO;
-    //    self.navigationBar.barStyle = UIBarStyleBlack;
-    //    _lineVIew = [self findlineviw:self.navigationBar];
-    //    _lineVIew.hidden = YES;
+
 }
 -(UIImageView*)findlineviw:(UIView*)view{
     
@@ -59,19 +43,24 @@
     // 1.设置导航栏主题
     UINavigationBar *navBar = [UINavigationBar appearance];
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
-    attrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
-    attrs[NSFontAttributeName] = NavBarFont;
+    attrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    attrs[NSFontAttributeName] = [UIFont systemFontOfSize:17.0f];
     [navBar setTitleTextAttributes:attrs];
     // 2.去掉导航栏所有返回按钮后边的文字
     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
     
-    navBar.tintColor = [UIColor whiteColor];
-    //    [navBar setBarTintColor:kRedColor];
+    //设置导航栏背景图片为一个空的image，这样就透明了
+    [navBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    //去掉透明后导航栏下边的黑边
+    [navBar setShadowImage:[UIImage new]];
+    //
+    
+    
+//    navBar.translucent = NO;
+    
+
 }
 
-- (UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
-}
 
 //当 push 时隐藏 tabbar
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
@@ -83,10 +72,7 @@
     }
     [super pushViewController:viewController animated:animated];
     
-    //    // 修改tabBar的frame
-    //    CGRect frame = self.tabBarController.tabBar.frame;
-    //    frame.origin.y = [UIScreen mainScreen].bounds.size.height - frame.size.height;
-    //    self.tabBarController.tabBar.frame = frame;
+
 }
 
 - (void)setBackItem:(UIViewController *)vc {
@@ -94,7 +80,7 @@
     self.interactivePopGestureRecognizer.delegate = nil;
     
     //        UIBarButtonItem *back = [[UIBarButtonItem alloc]initWithImage:IMG(@"back") style:UIBarButtonItemStylePlain target:self action:@selector(back)];
-    vc.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"back" andBarButtonItemBlock:^{
+    vc.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"nav_back" andBarButtonItemBlock:^{
         [self back];
     }];
 }

@@ -42,7 +42,7 @@
 //    [[UITabBar appearance] setBackgroundImage:[self createImageWithColor:kBGColor]];
 //    self.tabBar.backgroundColor = [UIColor clearColor];
     //    //设置为半透明
-//    self.tabBar.translucent = NO;
+    self.tabBar.translucent = NO;
     
     [self addChildControllers];
     [[UITabBarItem appearance]setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
@@ -79,7 +79,7 @@
 //    ZuoyeVC     *vc2 = [[ZuoyeVC alloc]init];
 //    NoticeMainVC    *vc3 = [[NoticeMainVC alloc]init];
 //    PingjiaVC   *vc4 = [[PingjiaVC alloc]init];
-//    
+//
 //    [self addChildVC:vc1 title:@"今日安排" imageName:@"ap_n" selectImageName:@"ap_s"];
 //
 //    [self addChildVC:vc2 title:@"作业布置" imageName:@"zy_n" selectImageName:@"zy_s"];
