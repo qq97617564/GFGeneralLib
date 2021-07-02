@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - GFGeneralLib (0.1.4):
+  - GFGeneralLib (0.1.5):
     - AFNetworking
     - GTMBase64
     - IQKeyboardManager
@@ -67,7 +67,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  GFGeneralLib: dc14be0c1f425c314aa38f7404b1d4cc74109945
+  GFGeneralLib: 5e807a996e3f2c7d1a1d6c7749456ac9aebd2cc1
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
