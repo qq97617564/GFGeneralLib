@@ -14,14 +14,14 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - GFGeneralLib (0.1.6):
+  - GFGeneralLib (0.1.7):
     - AFNetworking
-    - GFGeneralLib/BaseClass (= 0.1.6)
-    - GFGeneralLib/Constant (= 0.1.6)
-    - GFGeneralLib/Foundation (= 0.1.6)
-    - GFGeneralLib/GFPickView (= 0.1.6)
-    - GFGeneralLib/GFTools (= 0.1.6)
-    - GFGeneralLib/UIKit (= 0.1.6)
+    - GFGeneralLib/BaseClass (= 0.1.7)
+    - GFGeneralLib/Constant (= 0.1.7)
+    - GFGeneralLib/Foundation (= 0.1.7)
+    - GFGeneralLib/GFPickView (= 0.1.7)
+    - GFGeneralLib/GFTools (= 0.1.7)
+    - GFGeneralLib/UIKit (= 0.1.7)
     - GTMBase64
     - IQKeyboardManager
     - Masonry
@@ -31,8 +31,11 @@ PODS:
     - SDWebImage
     - TZImagePickerController
     - YBImageBrowser
-  - GFGeneralLib/BaseClass (0.1.6):
+  - GFGeneralLib/BaseClass (0.1.7):
     - AFNetworking
+    - GFGeneralLib/Constant
+    - GFGeneralLib/Foundation
+    - GFGeneralLib/UIKit
     - GTMBase64
     - IQKeyboardManager
     - Masonry
@@ -42,18 +45,7 @@ PODS:
     - SDWebImage
     - TZImagePickerController
     - YBImageBrowser
-  - GFGeneralLib/Constant (0.1.6):
-    - AFNetworking
-    - GTMBase64
-    - IQKeyboardManager
-    - Masonry
-    - MBProgressHUD
-    - MJExtension
-    - MJRefresh
-    - SDWebImage
-    - TZImagePickerController
-    - YBImageBrowser
-  - GFGeneralLib/Foundation (0.1.6):
+  - GFGeneralLib/Constant (0.1.7):
     - AFNetworking
     - GTMBase64
     - IQKeyboardManager
@@ -64,7 +56,7 @@ PODS:
     - SDWebImage
     - TZImagePickerController
     - YBImageBrowser
-  - GFGeneralLib/GFPickView (0.1.6):
+  - GFGeneralLib/Foundation (0.1.7):
     - AFNetworking
     - GTMBase64
     - IQKeyboardManager
@@ -75,7 +67,7 @@ PODS:
     - SDWebImage
     - TZImagePickerController
     - YBImageBrowser
-  - GFGeneralLib/GFTools (0.1.6):
+  - GFGeneralLib/GFPickView (0.1.7):
     - AFNetworking
     - GTMBase64
     - IQKeyboardManager
@@ -86,7 +78,18 @@ PODS:
     - SDWebImage
     - TZImagePickerController
     - YBImageBrowser
-  - GFGeneralLib/UIKit (0.1.6):
+  - GFGeneralLib/GFTools (0.1.7):
+    - AFNetworking
+    - GTMBase64
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - TZImagePickerController
+    - YBImageBrowser
+  - GFGeneralLib/UIKit (0.1.7):
     - AFNetworking
     - GTMBase64
     - IQKeyboardManager
@@ -139,7 +142,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  GFGeneralLib: cce438774091b5a095f5dcf1d807b3d637d01e4b
+  GFGeneralLib: 106018a2aaa38e606adf8d9cae335077de91b205
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

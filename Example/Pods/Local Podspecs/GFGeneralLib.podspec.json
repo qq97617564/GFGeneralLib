@@ -1,6 +1,6 @@
 {
   "name": "GFGeneralLib",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "Mr. WGF project general code, go to Git for details",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/qq97617564/GFGeneralLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/qq97617564/GFGeneralLib.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "9.0"
@@ -64,42 +64,53 @@
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/BaseClass/*.{h,m}"
+      "source_files": "GFGeneralLib/BaseClass",
+      "dependencies": {
+        "GFGeneralLib/Constant": [
+
+        ],
+        "GFGeneralLib/Foundation": [
+
+        ],
+        "GFGeneralLib/UIKit": [
+
+        ]
+      }
     },
     {
       "name": "Constant",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/Constant/*.{h,m}"
+      "source_files": "GFGeneralLib/Constant"
     },
     {
       "name": "Foundation",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/Foundation/*.{h,m}"
+      "source_files": "GFGeneralLib/Foundation"
     },
     {
       "name": "GFPickView",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/GFPickView/*.{h,m}"
+      "source_files": "GFGeneralLib/GFPickView}"
     },
     {
       "name": "GFTools",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/GFTools/*.{h,m}"
+      "source_files": "GFGeneralLib/GFTools"
     },
     {
       "name": "UIKit",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/UIKit/*.{h,m}"
+      "source_files": "GFGeneralLib/UIKit"
     }
   ]
 }
