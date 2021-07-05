@@ -24,47 +24,8 @@ TODO: Add long description of the pod here.
   #s.platform    = :ios, "9.0"
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'GFGeneralLib/GFGeneraManager.h','GFGeneralLib/GFGeneralLib.h'
+  s.source_files = 'GFGeneralLib/GFGeneraManager.h','GFGeneralLib/GFGeneralLib.h','GFGeneralLib/*','GFGeneralLib/**/*.{h,m}',
 
-  s.subspec 'Constant' do |ss|
-  ss.ios.deployment_target = '9.0'
-  ss.source_files = 'GFGeneralLib/Constant/*.{h,m}'
-  end
-  s.subspec 'Foundation' do |ss|
-  ss.ios.deployment_target = '9.0'
-  ss.source_files = 'GFGeneralLib/Foundation/*.{h,m}'
-  
-  end
-  
-  s.subspec 'UIKit' do |ss|
-  ss.ios.deployment_target = '9.0'
-  ss.source_files = 'GFGeneralLib/UIKit/*.{h,m}'
-  end
-  
-  s.subspec 'BaseClass' do |ss|
-  ss.ios.deployment_target = '9.0'
-  ss.source_files = 'GFGeneralLib/BaseClass'
-  ss.dependency 'GFGeneralLib/Constant'
-  ss.dependency 'GFGeneralLib/Foundation'
-  ss.dependency 'GFGeneralLib/UIKit'
-  
-  end
-  s.subspec 'GFPickView' do |ss|
-  ss.ios.deployment_target = '9.0'
-    ss.source_files = 'GFGeneralLib/GFPickView/*.{h,m}'
-  end
-  s.subspec 'GFTools' do |ss|
-  ss.ios.deployment_target = '9.0'
-  ss.dependency 'GFGeneralLib/Constant'
-  ss.dependency 'GFGeneralLib/Foundation'
-  ss.dependency 'GFGeneralLib/UIKit'
-  ss.source_files = 'GFGeneralLib/GFTools/*.{h,m}'
-  
-  end
-  
-  
-  
-  
   
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'MJExtension'
