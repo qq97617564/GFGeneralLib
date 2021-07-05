@@ -20,8 +20,7 @@
   },
   "source_files": [
     "GFGeneralLib/GFGeneraManager.h",
-    "GFGeneralLib/*",
-    "GFGeneralLib/**/*.{h,m}"
+    "GFGeneralLib/GFGeneralLib.h"
   ],
   "frameworks": [
     "UIKit",
@@ -58,5 +57,49 @@
     "YBImageBrowser": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "BaseClass",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/BaseClass/*.{h,m}"
+    },
+    {
+      "name": "Constant",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/Constant/*.{h,m}"
+    },
+    {
+      "name": "Foundation",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/Foundation/*.{h,m}"
+    },
+    {
+      "name": "GFPickView",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/GFPickView/*.{h,m}"
+    },
+    {
+      "name": "GFTools",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/GFTools/*.{h,m}"
+    },
+    {
+      "name": "UIKit",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/UIKit/*.{h,m}"
+    }
+  ]
 }

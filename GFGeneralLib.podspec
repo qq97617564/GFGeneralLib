@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GFGeneralLib'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Mr. WGF project general code, go to Git for details'
 
 
@@ -24,8 +24,36 @@ TODO: Add long description of the pod here.
   #s.platform    = :ios, "9.0"
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'GFGeneralLib/GFGeneraManager.h','GFGeneralLib/*','GFGeneralLib/**/*.{h,m}'
+  s.source_files = 'GFGeneralLib/GFGeneraManager.h','GFGeneralLib/GFGeneralLib.h'
 
+  s.subspec 'BaseClass' do |ss|
+  ss.ios.deployment_target = '9.0'
+  ss.source_files = 'GFGeneralLib/BaseClass/*.{h,m}'
+  end
+  s.subspec 'Constant' do |ss|
+  ss.ios.deployment_target = '9.0'
+  ss.source_files = 'GFGeneralLib/Constant/*.{h,m}'
+  end
+  s.subspec 'Foundation' do |ss|
+  ss.ios.deployment_target = '9.0'
+  ss.source_files = 'GFGeneralLib/Foundation/*.{h,m}'
+  end
+  s.subspec 'GFPickView' do |ss|
+  ss.ios.deployment_target = '9.0'
+  ss.source_files = 'GFGeneralLib/GFPickView/*.{h,m}'
+  end
+  s.subspec 'GFTools' do |ss|
+  ss.ios.deployment_target = '9.0'
+  ss.source_files = 'GFGeneralLib/GFTools/*.{h,m}'
+  end
+  s.subspec 'UIKit' do |ss|
+  ss.ios.deployment_target = '9.0'
+  ss.source_files = 'GFGeneralLib/UIKit/*.{h,m}'
+  end
+  
+  
+  
+  
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'MJExtension'
   s.dependency 'SDWebImage'
