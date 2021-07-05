@@ -60,6 +60,27 @@
   },
   "subspecs": [
     {
+      "name": "Constant",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/Constant/*.{h,m}"
+    },
+    {
+      "name": "Foundation",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/Foundation/*.{h,m}"
+    },
+    {
+      "name": "UIKit",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "GFGeneralLib/UIKit/*.{h,m}"
+    },
+    {
       "name": "BaseClass",
       "platforms": {
         "ios": "9.0"
@@ -78,39 +99,29 @@
       }
     },
     {
-      "name": "Constant",
-      "platforms": {
-        "ios": "9.0"
-      },
-      "source_files": "GFGeneralLib/Constant"
-    },
-    {
-      "name": "Foundation",
-      "platforms": {
-        "ios": "9.0"
-      },
-      "source_files": "GFGeneralLib/Foundation"
-    },
-    {
       "name": "GFPickView",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/GFPickView}"
+      "source_files": "GFGeneralLib/GFPickView/*.{h,m}"
     },
     {
       "name": "GFTools",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "GFGeneralLib/GFTools"
-    },
-    {
-      "name": "UIKit",
-      "platforms": {
-        "ios": "9.0"
+      "dependencies": {
+        "GFGeneralLib/Constant": [
+
+        ],
+        "GFGeneralLib/Foundation": [
+
+        ],
+        "GFGeneralLib/UIKit": [
+
+        ]
       },
-      "source_files": "GFGeneralLib/UIKit"
+      "source_files": "GFGeneralLib/GFTools/*.{h,m}"
     }
   ]
 }
